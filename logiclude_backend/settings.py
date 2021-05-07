@@ -84,6 +84,7 @@ CORS_ORIGIN_WHITELIST = [
     "http://192.168.254.168",
     "https://google.com",
     "https://developers.facebook.com",
+    "https://www.logicludenews.ml",
     "https://facebook.com",
 ]
 CORS_ORIGIN_REGEX_WHITELIST = [
@@ -92,6 +93,7 @@ CORS_ORIGIN_REGEX_WHITELIST = [
     "https://google.com",
     "https://developers.facebook.com",
     "https://facebook.com",
+    "https://www.logicludenews.ml",
 ]
 
 MIDDLEWARE = [
