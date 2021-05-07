@@ -30,7 +30,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["localhost", "192.168.254.168", "logicludenews.ml"]
+ALLOWED_HOSTS = ["localhost", "192.168.254.168", "logicludenews.ml", "logicludenewsapi.herokuapp.com"]
 
 # Application definition
 
@@ -104,6 +104,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "django.middleware.common.CommonMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
